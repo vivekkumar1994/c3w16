@@ -1,7 +1,8 @@
 import React from "react";
 import "./styles.css";
-import styled from "styled-components";
+import styled from "../styled-Components";
 import Navbar from "./components/Navbar";
+import Login from "./components/Login"
 
 
 const Wrapper = styled.div`
@@ -31,6 +32,7 @@ export default function App() {
   return (
     <div className="App">
       <Navbar />
+      <Login/>
       <Wrapper>
         <A color="green" href="https://www.google.com">
           goto google
